@@ -5,8 +5,8 @@ export default function HeroSection(){
         <div className="hero flex flex-col items-center mt-[120px] justify-between lg:flex-row gap-[100px] lg:gap-[70px]">
             <div className="info">
                 <div className="text">
-                    <p className="text-[24px] text-[#707070] font-[600]">Hi I am</p>
-                    <p className="text-[28px] text-[#707070] font-bold">Mahmood Fazile</p>
+                    <p className="text-clamp(1rem, 24px) text-[#707070] font-[600]">Hi I am</p>
+                    <p className="text-clamp(1rem, 28px) text-[#707070] font-bold">Mahmood Fazile</p>
                     <h2 className="text-[70px] mt-[24px] font-[900] bg-[linear-gradient(to_right,#984300,#FD6F00_46%,#CA5900)] bg-clip-text text-transparent">UI/UX designer</h2>
                 </div>
                 <Icons/>
